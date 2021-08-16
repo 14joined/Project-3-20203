@@ -1,7 +1,7 @@
 all: main
 
 main: main.o heuristic.o EVRP.o stats.o 
-	g++ main.o heuristic.o EVRP.o stats.o -o main
+	g++ main.o heuristic.o EVRP.o stats.o -o test/main
 
 main.o: main.cpp
 	g++ -c main.cpp

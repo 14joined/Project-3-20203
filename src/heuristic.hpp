@@ -17,6 +17,8 @@ struct solution{
 
 extern solution *best_sol;
 
+void reset();
+void baco();
 
 void initialize_heuristic();
 void run_heuristic();

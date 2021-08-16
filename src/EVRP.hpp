@@ -37,7 +37,7 @@ double get_current_best();							//returns the best solution quality from all ev
 double get_evals();									//returns the number of evaluations
 void free_EVRP();									//free memory
 
-
+double ** generate_2D_matrix_double(int n, int m);
 
 
 
